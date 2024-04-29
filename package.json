@@ -1,0 +1,22 @@
+{
+  "name": "leylines-solids",
+  "version": "0.1.0",
+  "description": "solids module for calculating global leylines",
+  "preferGlobal": true,
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=13.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leylines/leylines-solids.git"
+  },
+  "author": "Joerg Roth",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/leylines/leylines-solids/issues"
+  },
+  "homepage": "https://github.com/leylines/leylines-solids#readme"
+}
