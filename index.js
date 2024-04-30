@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
-import { solids } from './lib/solids.mjs';
+import { beckerhagens, archimedean } from './lib/solids.mjs';
+import { getPoints } from './lib/calc.mjs';
+import { environment } from './lib/env.mjs';
 
-export { solids };
+export { beckerhagens };
+export { archimedean };
+export { getPoints };
+export { environment };
