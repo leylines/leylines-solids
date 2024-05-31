@@ -1,12 +1,17 @@
 #!/usr/bin/env node
 
-import { beckerhagens, archimedean, platonic, catalan } from './lib/solids.mjs';
+//import { beckerhagens, archimedean, platonic, catalan } from './lib/solids.mjs';
+import { beckerhagens } from './lib/beckerhagens.mjs';
 import { getPoints } from './lib/calc.mjs';
 import { environment } from './lib/env.mjs';
+import { platonic } from './lib/platonic.mjs';
+import { archimedean } from './lib/archimedean.mjs';
+import { catalan } from './lib/catalan.mjs';
+
 
 export { beckerhagens };
-export { catalan };
-export { archimedean };
 export { platonic };
+export { archimedean };
+export { catalan };
 export { getPoints };
-export { environment };
+//export { environment };
