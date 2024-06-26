@@ -1,6 +1,6 @@
 {
   "name": "leylines-solids",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "solids module for calculating global leylines",
   "preferGlobal": true,
   "main": "index.js",
