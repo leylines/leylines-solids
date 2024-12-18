@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { beckerhagens } from './lib/beckerhagens.mjs';
+import { gravitywells } from './lib/gravitywells.mjs';
 import { getPoints } from './lib/calc.mjs';
 import { environment } from './lib/env.mjs';
 import { platonic } from './lib/platonic.mjs';
@@ -11,6 +12,7 @@ import { geodesicIcosahedra } from './lib/geodesicIcosahedra.mjs';
 
 
 export { beckerhagens };
+export { gravitywells };
 export { platonic };
 export { archimedean };
 export { catalan };
