@@ -1,22 +1,19 @@
 #!/usr/bin/env node
 
-import { beckerhagens } from './lib/beckerhagens.mjs';
-import { gravitywells } from './lib/gravitywells.mjs';
-import { getPoints } from './lib/calc.mjs';
-import { environment } from './lib/env.mjs';
-import { platonic } from './lib/platonic.mjs';
 import { archimedean } from './lib/archimedean.mjs';
+import { beckerhagens } from './lib/beckerhagens.mjs';
 import { catalan } from './lib/catalan.mjs';
 import { dualGeodesic } from './lib/dualGeodesic.mjs';
 import { geodesicIcosahedra } from './lib/geodesicIcosahedra.mjs';
+import { getPoints } from './lib/calc.mjs';
+import { gravitywells } from './lib/gravitywells.mjs';
+import { platonic } from './lib/platonic.mjs';
 
-
-export { beckerhagens };
-export { gravitywells };
-export { platonic };
 export { archimedean };
+export { beckerhagens };
 export { catalan };
 export { dualGeodesic };
 export { geodesicIcosahedra };
 export { getPoints };
-//export { environment };
+export { gravitywells };
+export { platonic };
