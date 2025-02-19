@@ -8,6 +8,7 @@ import { geodesicIcosahedra } from './lib/geodesicIcosahedra.mjs';
 import { getPoints } from './lib/calc.mjs';
 import { gravitywells } from './lib/gravitywells.mjs';
 import { platonic } from './lib/platonic.mjs';
+import { grid } from './lib/grid.mjs';
 
 export { archimedean };
 export { beckerhagens };
@@ -17,3 +18,4 @@ export { geodesicIcosahedra };
 export { getPoints };
 export { gravitywells };
 export { platonic };
+export { grid };
